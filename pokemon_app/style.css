@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(233, 250, 172);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    background: rgb(224, 86, 86);
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(224, 209, 212);
+    color: black;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    justify-content: center;
+    grid-gap: 100px;
+    margin-top: 100px;
+}
+
+.card {
+    border: 10px solid #5660ee;
+    background-color: #bcc0f0;
+    border-radius: 4px;
+    padding: 3rem;
+    /* text-align: center; */
+    font-size: 1em;
+    justify-self: center;
+}
